@@ -1,10 +1,14 @@
 {
+  "flit.nvim": { "branch": "main", "commit": "56490317983218b09698f8c960c3669958b12b32" },
   "gitsigns.nvim": { "branch": "main", "commit": "75dc649106827183547d3bedd4602442340d2f7f" },
+  "harpoon": { "branch": "harpoon2", "commit": "0378a6c428a0bed6a2781d459d7943843f374bce" },
   "lazy.nvim": { "branch": "main", "commit": "24fa2a97085ca8a7220b5b078916f81e316036fd" },
+  "leap.nvim": { "branch": "main", "commit": "6252b89ffa8a10311344fe10cc00fbbb6170f30f" },
   "neofusion.nvim": { "branch": "main", "commit": "329ecf98b38b9a994077606557d926ae10518b90" },
   "nvim-treesitter": { "branch": "master", "commit": "b7d50e59b1b2990b3ce8761d4cf595f4b71c87e2" },
   "nvim-web-devicons": { "branch": "master", "commit": "b77921fdc44833c994fdb389d658ccbce5490c16" },
   "oil.nvim": { "branch": "master", "commit": "2cb39e838e9dcd8b374f09a3a87a2e5ec9d372f6" },
   "plenary.nvim": { "branch": "master", "commit": "a3e3bc82a3f95c5ed0d7201546d5d2c19b20d683" },
+  "rose-pine": { "branch": "main", "commit": "87aa437172357ad8f916942bca249ceadc6c68b1" },
   "which-key.nvim": { "branch": "main", "commit": "4433e5ec9a507e5097571ed55c02ea9658fb268a" }
 }

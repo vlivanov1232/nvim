@@ -7,6 +7,7 @@ vim.api.nvim_create_autocmd("TextYankPost", {
 	end,
 })
 
+-- Setup leap colorscheme
 vim.api.nvim_create_autocmd("ColorScheme", {
 	callback = function()
 		if vim.g.colors_name == "rose-pine" then

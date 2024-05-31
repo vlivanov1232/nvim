@@ -10,5 +10,4 @@ vim.opt.rtp:prepend(lazypath)
 require("lazy").setup("plugins")
 require("config.keymaps")
 
-vim.o.background = "dark"
-vim.cmd([[ colorscheme neofusion ]])
+vim.cmd([[ colorscheme rose-pine ]])

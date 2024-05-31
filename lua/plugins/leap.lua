@@ -1,22 +1,10 @@
 return {
 	{
-		"ggandor/flit.nvim",
-		enabled = true,
-		keys = function()
-			local ret = {}
-			for _, key in ipairs({ "f", "F", "t", "T" }) do
-				ret[#ret + 1] = { key, mode = { "n", "x", "o" }, desc = key }
-			end
-			return ret
-		end,
-		opts = { labeled_modes = "nx" },
-	},
-	{
 		"ggandor/leap.nvim",
 		enabled = true,
 		keys = {
-			{ "s", mode = { "n", "x", "o" }, desc = "Leap Forward to" },
 			{ "S", mode = { "n", "x", "o" }, desc = "Leap Backward to" },
+			{ "s", mode = { "n", "x", "o" }, desc = "Leap Forward to" },
 			{ "gs", mode = { "n", "x", "o" }, desc = "Leap from Windows" },
 		},
 		config = function(_, opts)
